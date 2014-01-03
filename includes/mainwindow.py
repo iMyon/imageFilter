@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'mainwindow.ui'
 #
-# Created: Fri Jan  3 01:46:46 2014
+# Created: Fri Jan  3 14:02:10 2014
 #      by: PyQt4 UI code generator 4.9.1
 #
 # WARNING! All changes made in this file will be lost!
@@ -19,6 +19,8 @@ class Ui_MainWindow(object):
         MainWindow.setObjectName(_fromUtf8("MainWindow"))
         MainWindow.setEnabled(True)
         MainWindow.resize(390, 315)
+        MainWindow.setMinimumSize(QtCore.QSize(390, 315))
+        MainWindow.setMaximumSize(QtCore.QSize(390, 315))
         font = QtGui.QFont()
         font.setPointSize(10)
         font.setBold(False)

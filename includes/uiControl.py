@@ -19,6 +19,8 @@ class Widget(QtGui.QMainWindow, Ui_MainWindow):
 		self.cbHeight.stateChanged.connect(self.toggleGrpHeight)
 		self.cbRate.stateChanged.connect(self.toggleGrpRate)
 		self.center()
+		#去除标题栏边框等
+		#self.setWindowFlags(Qt.FramelessWindowHint)
 	#工作目录按钮点击事件
 	@pyqtSignature("")
 	def on_btnFileChoose_clicked(self):
